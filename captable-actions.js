@@ -8,6 +8,7 @@ export function newRound(investmentAmount, valuation, preRadio, pariRadio) {
       valuation: 1e6 * parseInt(valuation, 10),
       preMoney: preRadio === 'pre',
       pariPassu: pariRadio === 'pari',
+      prefMultiple: 1,
     }
   };
 }
