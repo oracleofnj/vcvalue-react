@@ -37,3 +37,4 @@ node_modules
 *.ttf
 *.eot
 *.woff
+.DS_Store
